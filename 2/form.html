@@ -10,16 +10,16 @@
   <body class="page-body">
     <header class="page-header">
       <nav class="page-header__navigation navigation">
-        <a class="navigation__logo navigation__logo--mobile" href="#">
+        <a class="navigation__logo" href="index.html">
           <img src="img/logo-mobile.svg" alt="Логотип Cat Energy." width="33" height="38">
         </a>
-        <a class="navigation__logo-secondary" href="#">
+        <a class="navigation__logo-secondary" href="index.html">
           <img src="img/logo-2.svg" alt="Надпись Cat Energy." width="101" height="18">
         </a>
 
-        <ul class="navigation__list navigation__list--mobile">
+        <ul class="navigation__list">
           <li class="navigation__item">
-            <a class="navigation__link" href="#">главная</a>
+            <a class="navigation__link" href="index.html">главная</a>
           </li>
           <li class="navigation__item">
             <a class="navigation__link" href="catalog.html">каталог продукции</a>
@@ -41,7 +41,7 @@
 
       <form class="form-main__programm programm" action="https://echo.htmlacademy.ru/" method="post">
         <!--данные кота-->
-        <fieldset class="programm__cat-date">
+        <fieldset class="programm__cat-date cat-date">
           <legend class="visually-hidden cat-date__title">Данные кота</legend>
 
           <label class="cat-date__label" for="name-cat">Имя:*</label>
@@ -55,7 +55,7 @@
         </fieldset>
 
         <!--тип программы-->
-        <fieldset class="programm__programm-type">
+        <fieldset class="programm__programm-type programm-type">
           <legend class="visually-hidden programm-type__title">Тип программы</legend>
 
           <input class="programm-type__radio" type="radio" id="slim" name="programm-type" value="slim" checked>
@@ -69,7 +69,7 @@
         </fieldset>
 
         <!--контакты-->
-        <fieldset class="programm__contacts">
+        <fieldset class="programm__contacts contacts">
           <legend class="contacts__title">Контактные данные (владельца кота)</legend>
 
           <label class="contacts__label" for="email">E-mail:*</label>
@@ -80,14 +80,14 @@
         </fieldset>
 
         <!--комментарий-->
-        <fieldset class="programm__comments">
+        <fieldset class="programm__comments comments">
           <legend class="comments__title">Комментарий</legend>
 
           <textarea class="comments__textarea" name="comments" id="comments" cols="34" rows="4" placeholder="Расскажите обо всех повадках кота"></textarea>
         </fieldset>
 
         <!--дополнительно-->
-        <fieldset class="programm__additional">
+        <fieldset class="programm__additional additional">
           <legend class="additional__title">Дополнительно</legend>
 
           <input class="additional__input" type="checkbox" id="sweetener" name="sweetener" checked>
@@ -103,44 +103,44 @@
           <label class="additional__label" for="vitamins">витамины</label>
         </fieldset>
 
-        <button class="programm__button button programm__button--mobile">отправить заявку</button>
+        <button class="programm__button button">отправить заявку</button>
 
         <p class="programm__note">* — Обязательные поля</p>
       </form>
 
-      <aside class="form-main__invite invite">
+      <aside class="catalog-main__invite invite">
         <h2 class="invite__title">приглашаем к сотрудничеству дилеров!</h2>
         <address class="invite__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
-        <img class="invite__location-image" src="img/location-mobile.png" alt="Карта расположения компании Cat Energy." width="320" height="362">
+        <iframe title="Карта расположения компании Cat Energy." frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8600.904867167967!2d30.310846219801366!3d59.94008662313794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1707726178806!5m2!1sru!2sru" width="320" height="362" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </aside>
     </main>
 
     <!--подвал сайта-->
     <footer class="page-footer">
 
-      <a class="page-footer__logo page-footer__logo--mobile" href="#">
+      <a class="page-footer__logo" href="#">
         <img src="img/footer-logo.svg" alt="Логотип Cat Energy." width="124" height="24">
       </a>
 
-      <ul class="page-footer__social-list page-footer__social-list--mobile">
-        <li class="page-footer__social-item page-footer__social-item--mobile">
+      <ul class="page-footer__social-list">
+        <li class="page-footer__social-item">
           <a class="page-footer__social-link" href="">
             <span class="visually-hidden">вконтакте</span>
           </a>
         </li>
-        <li class="page-footer__social-item page-footer__social-item--mobile">
+        <li class="page-footer__social-item">
           <a class="page-footer__social-link" href="">
             <span class="visually-hidden">youtube</span>
           </a>
         </li>
-        <li class="page-footer__social-item page-footer__social-item--mobile">
+        <li class="page-footer__social-item">
           <a class="page-footer__social-link" href="">
             <span class="visually-hidden">телеграмм</span>
           </a>
         </li>
       </ul>
 
-      <a class="page-footer__producer page-footer__producer--mobile" href="">HTML Academy</a>
+      <a class="page-footer__producer" href="">HTML Academy</a>
 
     </footer>
 
