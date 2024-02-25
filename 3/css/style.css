@@ -1,16 +1,16 @@
 /*общие переменные*/
 @font-face {
-  font-family: "Oswald_Regular";
+  font-family: "Oswald";
   src: url("../fonts/oswald/oswaldregular.woff2") format("woff2");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
-  font-family: "Oswald_Medium";
+  font-family: "Oswald";
   src: url("../fonts/oswald/oswaldmedium.woff2") format("woff2");
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-display: swap;
 }
 @font-face {
@@ -36,14 +36,14 @@
 .button {
   padding: 10px 0;
   border: none;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
 }
 /*общие стили*/
 .page {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
 }
 .page-body {
   display: flex;
@@ -92,7 +92,8 @@
   padding: 22px 0 23px 0;
   font-size: 20px;
   line-height: 20px;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-weight: 400;
+  font-family: "Oswald", "Arial", sans-serif;
   color: #000000;
   text-decoration: none;
   text-transform: uppercase;
@@ -106,7 +107,7 @@
   width: 140px;
   margin: 0;
   padding: 26px 0 26px 20px;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
@@ -178,18 +179,20 @@
 .main-header__title {
   margin: 0;
   padding: 27px 35px 25px 35px;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 36px;
   line-height: 36px;
+  font-weight: 400;
   text-align: center;
   color: #ffffff;
 }
 .main-header__slogan {
   margin: 0;
   padding: 0 60px 164px 60px;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 14px;
   line-height: 14px;
+  font-weight: 400;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -223,9 +226,10 @@
 .our-programms__title {
   margin: 0;
   padding: 30px 32px 39px 70px;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
   line-height: 37px;
+  font-weight: 400;
   color: #000000;
   text-transform: uppercase;
 }
@@ -242,9 +246,10 @@
 .our-programms__link {
   display: block;
   padding: 19px 0 22px 0;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   line-height: 16px;
+  font-weight: 400;
   color: #000000;
   text-transform: uppercase;
   text-decoration: none;
@@ -252,9 +257,10 @@
 .how-it-work__title {
   margin: 0;
   padding: 20px 20px 40px 20px;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 36px;
   line-height: 40px;
+  font-weight: 400;
   color: #000000;
 }
 .how-it-work__list {
@@ -282,9 +288,10 @@
 }
 .case__title {
   margin: 0 0 40px 0;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 36px;
   line-height: 40px;
+  font-weight: 400;
   color: #000000;
 }
 .case__description {
@@ -309,17 +316,19 @@
 }
 .case__definition {
   margin: 0;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
   line-height: 24px;
+  font-weight: 400;
   color: #000000;
 }
 .case__costs {
   margin: 0;
   padding: 20px 46px;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 14px;
   line-height: 20px;
+  font-weight: 400;
   text-transform: uppercase;
   color: #000000;
 }
@@ -336,7 +345,7 @@
   margin: 0;
   padding: 27px 20px 40px 20px;
   border-bottom: 1px solid #e6e6e6;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 36px;
   line-height: 36px;
   font-weight: 400;
@@ -357,7 +366,7 @@
 .product__title {
   width: 67%;
   margin: 0 0 14px 0;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
@@ -410,7 +419,7 @@
   margin: 0;
   padding: 53px 0 8px 0;
   text-align: center;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
@@ -437,7 +446,7 @@
 .goods__heading {
   margin: 0;
   padding: 25px 0 35px 0;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
   line-height: 24px;
   font-weight: 400;
@@ -452,7 +461,7 @@
 .goods__title {
   margin: 0;
   padding: 13px 0 13px 0;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   line-height: 16px;
   font-weight: 400;
@@ -528,7 +537,7 @@
 .form-main__title {
   margin: 0;
   padding: 27px 0 37px 20px;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 36px;
   line-height: 36px;
   font-weight: 400;
@@ -537,7 +546,7 @@
 .form-main__description {
   margin: 0;
   padding: 0 20px 39px 20px;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
@@ -564,7 +573,7 @@
 }
 .cat-date__parameter {
   margin-right: 13px;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
@@ -575,7 +584,7 @@
   flex-grow: 1;
   padding: 14px 15px 13px 15px;
   border: 1px solid #e7e7e7;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
@@ -597,7 +606,7 @@
   list-style-type: none;
 }
 .programm-type__label {
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 16;
   line-height: 18px;
   font-weight: 400;
@@ -614,9 +623,10 @@
   float: left;
   margin: 0 0 35px 0;
   padding: 0;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
   line-height: 26px;
+  font-weight: 400;
   color: #000000;
 }
 .contacts-owner__list {
@@ -633,7 +643,7 @@
 }
 .contacts-owner__type {
   margin-right: 13px;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
@@ -644,7 +654,7 @@
   flex-grow: 1;
   padding: 14px 15px 13px 15px;
   border: 1px solid #e7e7e7;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
@@ -661,7 +671,7 @@
   float: left;
   margin: 0 0 38px 0;
   padding: 0;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
   line-height: 26px;
   color: #000000;
@@ -669,7 +679,7 @@
 .comments__textarea {
   padding: 14px 15px;
   border: 1px solid #e7e7e7;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
@@ -687,9 +697,10 @@
   float: left;
   margin: 0 0 34px 0;
   padding: 0;
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
   line-height: 26px;
+  font-weight: 400;
   color: #000000;
 }
 .additional__list {
@@ -701,7 +712,7 @@
   list-style-type: none;
 }
 .additional__label {
-  font-family: "Oswald_Regular", "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 16;
   line-height: 18px;
   font-weight: 400;
