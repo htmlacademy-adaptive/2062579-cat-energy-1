@@ -47,6 +47,7 @@
   grid-row: ~"1 / 3";
   justify-self: center;
   align-self: center;
+  object-fit: cover;
 
   &:hover {
     opacity: 0.8;
@@ -87,6 +88,8 @@
 .product__button {
   grid-column: ~"1 / -1";
   grid-row: ~"4 / -1";
+  text-align: center;
+  text-decoration: none;
   color: @back;
   background-color: @elementary;
 
@@ -113,7 +116,7 @@
   .product__item {
     align-items: end;
     grid-template-columns: 1fr;
-    grid-template-rows: 161px min-content min-content 32px min-content;
+    grid-template-rows: 161px min-content min-content 32px auto;
     padding: 0 0 40px 0;
     border-bottom: none;
     background-color: @back-grey;
@@ -166,7 +169,7 @@
   }
 
   .product__item {
-    grid-template-rows: 151px min-content min-content 33px min-content;
+    grid-template-rows: 151px min-content min-content 33px auto;
   }
 
   .product__title {

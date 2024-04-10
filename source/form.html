@@ -68,13 +68,13 @@
               <li class="cat-date__item">
                 <label class="cat-date__label" for="weight-cat">
                   <span class="cat-date__parameter">Вес (кг):*</span>
-                  <input class="cat-date__input" type="number" id="weight-cat" name="weight-cat" placeholder="7" required>
+                  <input class="cat-date__input" type="text" id="weight-cat" name="weight-cat" placeholder="7" required>
                 </label>
               </li>
               <li class="cat-date__item">
                 <label class="cat-date__label" for="age-cat">
                   <span class="cat-date__parameter">Возраст (лет):</span>
-                  <input class="cat-date__input" type="number" id="age-cat" name="age-cat" placeholder="7">
+                  <input class="cat-date__input" type="text" id="age-cat" name="age-cat" placeholder="7">
                 </label>
               </li>
             </ul>
@@ -219,7 +219,11 @@
             <h2 class="invite__title">приглашаем <br>к сотрудничеству дилеров!</h2>
             <address class="invite__address">ул. Большая Конюшенная, д. 19/8<br><br class="invite__additional-brake">Санкт-Петербург</address>
           </div>
-          <iframe class="invite__map" title="Карта расположения компании Cat Energy." src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8600.904867167967!2d30.310846219801366!3d59.94008662313794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1707726178806!5m2!1sru!2sru" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="invite__map">
+            <div class="invite__custom-map invite__custom-map--mobile" id="map"></div>
+            <div class="invite__custom-map invite__custom-map--tablet" id="map--table"></div>
+            <div class="invite__custom-map invite__custom-map--desktop" id="map--desktop"></div>
+          </div>
         </div>
       </section>
 
@@ -233,7 +237,7 @@
 
         <ul class="page-footer__social-list">
           <li class="page-footer__social-item">
-            <a class="page-footer__social-link" href="#">
+            <a class="page-footer__social-link" href="https://vk.com/htmlacademy">
               <span class="visually-hidden">на страницу магазина вконтакте.</span>
               <svg class="page-footer__social-icon" width="28" height="22">
                 <use xlink:href="img/svg/sprite.svg#logo-VK"></use>
@@ -241,7 +245,7 @@
             </a>
           </li>
           <li class="page-footer__social-item">
-            <a class="page-footer__social-link" href="#">
+            <a class="page-footer__social-link" href="https://www.youtube.com/user/htmlacademyru">
               <span class="visually-hidden">на страницу магазина на youtube.</span>
               <svg class="page-footer__social-icon" width="28" height="22">
                 <use xlink:href="img/svg/sprite.svg#logo-YT"></use>
@@ -249,7 +253,7 @@
             </a>
           </li>
           <li class="page-footer__social-item">
-            <a class="page-footer__social-link" href="#">
+            <a class="page-footer__social-link" href="https://t.me/htmlacademy">
               <span class="visually-hidden">в телеграмм-канал магазина.</span>
               <svg class="page-footer__social-icon" width="28" height="22">
                 <use xlink:href="img/svg/sprite.svg#logo-TG"></use>
@@ -258,7 +262,7 @@
           </li>
         </ul>
 
-        <a class="page-footer__producer" href="https://htmlacademy.ru" aria-label="Сайт HTML Academy">
+        <a class="page-footer__producer" href="https://htmlacademy.ru/intensive/adaptive" aria-label="Сайт HTML Academy">
           <span class="page-footer__producer-name">HTML Academy</span>
           <svg class="page-footer__producer-icon" width="27" height="34">
             <use xlink:href="img/svg/sprite.svg#logo-HTMLAcademy"></use>
@@ -269,5 +273,10 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <!--карта-->
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=f468d2c2-624f-4419-94c9-489802a1df65"></script>
+    <script src="js/map_custom.js"></script>
+    <script src="js/map_custom--tablet.js"></script>
+    <script src="js/map_custom--desktop.js"></script>
   </body>
 </html>

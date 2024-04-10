@@ -85,6 +85,11 @@
   text-transform: uppercase;
   color: @textual;
 
+  &:invalid:placeholder-shown:hover,
+  &:hover {
+    border-color: @divider--dark;
+  }
+
   &:invalid {
     padding: 12px 39px 11px 14px;
     border: 2px solid @error;
@@ -101,11 +106,6 @@
 
   &:invalid:placeholder-shown + .contacts-owner__type-icon {
     stroke: @titular;
-  }
-
-  &:invalid:placeholder-shown:hover,
-  &:hover {
-    border-color: @divider--dark;
   }
 
   &:invalid:placeholder-shown:focus,
@@ -186,8 +186,12 @@
     font-size: 20px;
     line-height: 30px;
 
+    &:hover {
+      border-color: @divider--dark;
+    }
+
     &:invalid {
-      padding: 9px 39px 9px 14px;
+      padding: 9px 39px 9px 19px;
       border: 2px solid @error;
     }
 
@@ -195,13 +199,9 @@
       padding: 10px 40px 10px 20px;
     }
 
-    &:hover {
-      border-color: @divider--dark;
-    }
-
     &:invalid:placeholder-shown:focus,
     &:focus {
-      padding: 9px 39px 9px 14px;
+      padding: 9px 39px 9px 19px;
       border: 2px solid @textual;
       outline: none;
     }
